@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #f3efe8, #e8dfd3);
+  color: #3b3b3b;
+}
+
+/* Section */
+.section {
+  background: #f8f4ee;
+  margin: 40px auto;
+  padding: 40px;
+  max-width: 900px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(120, 100, 80, 0.15);
+  transition: 0.3s ease;
+}
+
+.section:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(120, 100, 80, 0.25);
+}
+
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-left: 6px solid #9c7a4a;
+  padding-left: 15px;
+  color: #7a5c32;
+}
+
+/* Text */
+.section p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #4a4a4a;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill {
+  padding: 12px 22px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #d6c4a8, #e6d5bc);
+  color: #3b2f1f;
+  font-weight: 600;
+  box-shadow: 0 5px 12px rgba(156, 122, 74, 0.4);
+  transition: 0.3s;
+}
+
+.skill:hover {
+  transform: scale(1.12);
+  background: #c9b089;
+}
+
+/* Projects */
+.project-card {
+  background: #efe6da;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 15px;
+  border-left: 5px solid #9c7a4a;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Resume */
+.resume-btn {
+  display: inline-block;
+  padding: 12px 26px;
+  background: linear-gradient(135deg, #bfa37a, #d8c2a2);
+  color: #3b2f1f;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resume-btn:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 6px 14px rgba(120, 100, 80, 0.4);
+}
+
+/* Contact */
+.contact a {
+  margin-left: 8px;
+  color: #7a5c32;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section {
+    margin: 20px;
+    padding: 25px;
+  }
+}
+
+
+
+.contact a {
+  margin-left: 8px;
+  color: #00f2fe;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+  color: #4facfe;
+}
+
+.footer {
+  text-align: center;
+  padding: 25px;
+  color: #6b6b6b;
+  font-size: 14px;
+}
