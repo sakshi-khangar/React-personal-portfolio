@@ -48,6 +48,7 @@ This command creates a production-ready build inside the dist folder.
 
 ## Deployment
 The project is deployed using Vercel.
+Deployed Website Link: https://react-personal-portfolio-eqfk6zxvn-sakshi-khangars-projects.vercel.app
 Steps followed:
 - Pushed the project code to GitHub
 - Connected the GitHub repository to Vercel
