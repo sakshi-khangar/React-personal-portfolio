@@ -59,6 +59,7 @@ Challenges:
 - Choosing a light but non‑white color theme
 - Designing a clean and professional UI layout
 - Organizing content using reusable React components
+  
 Solutions :
 - Used warm neutral colors for better visual comfort
 - Implemented card‑based layout for clarity
