@@ -40,8 +40,8 @@ The application is optimized for performance and responsiveness, ensuring a seam
 The application will run on: http://localhost:5173/
 
 ## Production Build
-To generate an optimized production build of the application, run:
-npm run build
+To generate an optimized production build of the application, 
+run: npm run build
 This command creates a production-ready build inside the dist folder.
 
 ## Deployment
